@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["05VGC"]); }
-
-__d("LaminarReactHooks",["AdsDataAtom","ReactHooks_DEPRECATED","useSubscriptionValue"],(function(a,b,c,d,e,f){"use strict";__p&&__p();var g=b("ReactHooks_DEPRECATED").useCallback;function a(a){var c=g(function(){return a()},[a]),d=a.provider,e=g(function(a){var c=b("AdsDataAtom").addListener(d,a);return function(){return c.remove()}},[d]);return b("useSubscriptionValue")({getCurrentValue:c,subscribe:e})}e.exports={useProvider:a}}),null);
